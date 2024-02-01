@@ -1,19 +1,18 @@
-import React, { useContext } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 import Homepage from "./components/homepage";
-import { AppContext } from "./components/context";
 
 function App() {
 
 //destructuring isDark from Context
-  const { isDark, setisDark } = useContext(AppContext);
+  const [ isDark, setisDark ] = useState(false);
 
 //toggle between isDark and !isDark
 
   const toggleDarkMode = () => {
-    setisDark(!isDark);
+    setisDark(!isDark)
   };
 
   return (

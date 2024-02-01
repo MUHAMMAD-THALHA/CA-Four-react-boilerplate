@@ -2,8 +2,7 @@ import React,{useState,useEffect} from 'react'
 import "./Result.css"
 import Homepage from './homepage'
 import QuestionBox from './QuestionBox'
-// importing circle to show progress bar
-import {Circle} from "rc-progress"
+// importing circle to show progress bar"
 
 export default function Result() {
   // const[mode,setmode]=useState(false)
@@ -30,16 +29,7 @@ export default function Result() {
         <div className='result-container'>
    <h1 className='result'>Result</h1>
    <div class="progress-container">
-    <Circle 
-    width="150px"
-    percent={percentage}
-    strokeColor="#4be823"
-    strokeWidth={5}
-    trailColor='#fff'
-    trailWidth={5}
-    strokeLinecap='square'
-    transition="stroke-width 0.3s ease-in-out"
-    />
+    
 </div>
   
 

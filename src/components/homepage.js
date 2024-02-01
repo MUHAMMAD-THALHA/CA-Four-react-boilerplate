@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import "./homepage.css"
 import QuestionBox from './QuestionBox'
-import { AppContext } from './components/Context'
+
 
 const Homepage = () => {
     //changing the state of question box for conditional rendering
@@ -9,7 +9,7 @@ const Homepage = () => {
     const showQuestion=()=>{
         setQuestion(true)
     }
-    const{isDark,setisDark}=useContext(AppContext)
+   
   return (
     //conditional rendring to show questionbox
     <>
