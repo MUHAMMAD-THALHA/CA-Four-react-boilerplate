@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-// import Context from './components/Context';
+import Context from './components/context';
 
 ReactDOM.render(
   <div>
