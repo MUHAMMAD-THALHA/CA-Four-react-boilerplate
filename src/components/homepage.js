@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import "./homepage.css"
 import QuestionBox from './QuestionBox'
-import { AppContext } from './Context'
+import { AppContext } from './components/Context'
 
 const Homepage = () => {
     //changing the state of question box for conditional rendering

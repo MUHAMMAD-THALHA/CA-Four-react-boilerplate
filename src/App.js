@@ -3,7 +3,7 @@ import "./App.css";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 import Homepage from "./components/homepage";
-import { AppContext } from "./components/Context";
+// import { AppContext } from "./components/Context";
 
 function App() {
 
