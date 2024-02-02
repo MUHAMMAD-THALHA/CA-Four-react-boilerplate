@@ -14,7 +14,7 @@ export default function Result() {
   }
 
   // const changeMode=()=>{
-  //   setmode(!mode)
+  //   setmode(!m
   // }
 
   //setting score to local storage
